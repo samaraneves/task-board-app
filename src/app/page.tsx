@@ -1,5 +1,7 @@
+import { Title } from "@/components/Title";
+
 export default function Page() {
     return(
-        <h1>My Task Board</h1>
+        <Title />
     )
 }
