@@ -4,9 +4,12 @@ import Edit_duotone from "@/assets/Edit_duotone.svg";
 
 export function Title() {
     return (
-        <header className="flex justify-center flex-row gap-4 py-8">
+        <header className="flex flex-row items-start justify-center gap-4 py-8">
             <Image src={Logo} alt="Task Board APP logo"/>
-            <h1 className="text-2xl lg:text-4xl">My Task Board</h1>
+            <div className="flex flex-col justify-center flex-row gap-4">
+                <h1 className="text-2xl lg:text-4xl">My Task Board</h1>
+                <strong className="text-base font-normal">Tasks to keep organised</strong>
+            </div>
             <Image src={Edit_duotone} alt="Task Board APP logo"/>
         </header>
     )
