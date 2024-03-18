@@ -4,7 +4,7 @@ import Edit_duotone from "@/../public/Edit_duotone.svg";
 
 export function Title() {
     return (
-        <header className="flex flex-row items-start justify-center gap-4 py-8">
+        <header className="flex flex-row items-start gap-4 py-8">
             <Image src={Logo} alt="Task Board APP logo"/>
             <div className="flex flex-col justify-center flex-row gap-4">
                 <h1 className="text-2xl lg:text-4xl">My Task Board</h1>

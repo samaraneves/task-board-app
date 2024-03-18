@@ -24,16 +24,3 @@ describe('<Card /> component', () => {
 
         expect(getByText('Task in Progress')).toBeInTheDocument();
     })
-
-    // test('should yellow color in status Progress', () => {
-    //     const { getByText } = render(
-    //         <Card
-    //             iconStart='clock'
-    //             iconEnd='progress'
-    //             description='Task in Progress'
-    //             fontSize='lg'
-    //             status='progress'
-    //         />
-    //     ) 
-    // })
-})
