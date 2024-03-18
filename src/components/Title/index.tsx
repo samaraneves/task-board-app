@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logo from "@/assets/Logo.svg";
-import Edit_duotone from "@/assets/Edit_duotone.svg";
+import Logo from "@/../public/Logo.svg";
+import Edit_duotone from "@/../public/Edit_duotone.svg";
 
 export function Title() {
     return (
